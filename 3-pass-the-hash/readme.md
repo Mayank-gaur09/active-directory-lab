@@ -30,7 +30,7 @@ someone typing an actual password.
 <img width="1207" height="436" alt="Screenshot 2026-10-03 150136" src="https://github.com/user-attachments/assets/180d539d-4b05-4ba0-8f32-84e71ee8b523" />
 
 
-(The custom Wazuh rule for this (100102) is in wazuh-rules/local_rules.xml)
+(The custom Wazuh rule for this (100102) is in [wazuh-rules](/wazuh-rules/local-rules.xml))
 
 
 ## How to prevent this:
