@@ -32,7 +32,7 @@ Window logs this as Event ID 4769 to show that a Kerberos service ticket was req
 event ID so the tickets encryption type is the main differentiator - `0x17` is the indicator for kerberoasting since normal 
 traffic is `0x12`.
 
-(The custom Wazuh rule for this (100100) is in [wazuh-rules/local_rules.xml](../wazuh-rules/local_rules.xml))
+(The custom Wazuh rule for this (100100) is in [wazuh-rules](/wazuh-rules/local-rules.xml))
 
 
 
