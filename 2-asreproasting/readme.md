@@ -25,7 +25,7 @@ normal login is the PreAuthType field which is `0` if no pre-authentication was 
 <img width="970" height="496" alt="Screenshot 2026-10-02 232816" src="https://github.com/user-attachments/assets/4ae1883a-55fe-420e-a663-e3c6662d1fa1" />
 
 
-(The custom Wazuh rule for this (100101) is in [wazuh-rules/local_rules.xml](../wazuh-rules/local_rules.xml))
+(The custom Wazuh rule for this (100101) is in [wazuh-rules](/wazuh-rules/local-rules.xml))
 
 
 ## How to prevent this:
