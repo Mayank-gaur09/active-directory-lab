@@ -28,7 +28,7 @@ normal login is the PreAuthType field which is `0` if no pre-authentication was 
 (The custom Wazuh rule for this (100101) is in [wazuh-rules/local_rules.xml](../wazuh-rules/local_rules.xml))
 
 
-## Mitigation:
+## How to prevent this:
 
 - Audit all domain accounts for "Do not require Kerberos pre-authentication" and disable it unless there’s a valid reason.
 - Enforce strong passwords on every account.
