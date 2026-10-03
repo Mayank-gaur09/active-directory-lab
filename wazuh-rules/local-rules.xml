@@ -1,0 +1,50 @@
+## Custom Wazuh rules
+
+<group name="windows,kerberoasting,">
+<rule id="100100" level="12">
+<if_group>windows</if_group>
+<field name="win.system.eventID">^4769$</field>
+<field name="win.eventdata.ticketEncryptionType">^0x17$</field>
+<description>Possible Kerberoasting attempt: RC4 ticket requested for service account</description>
+<mitre>
+<id>T1558.003</id>
+</mitre>
+</rule>
+</group>
+
+<group name="windows,asrep_roasting,">
+<rule id="100101" level="12">
+<if_group>windows</if_group>
+<field name="win.system.eventID">^4768$</field>
+<field name="win.eventdata.PreAuthType">^0$</field>
+<description>Possible AS-REP Roasting attempt: TGT requested with no pre-authentication</description>
+<mitre>
+<id>T1558.004</id>
+</mitre>
+</rule>
+</group>
+
+<group name="windows,pass_the_hash,">
+<rule id="100102" level="12">
+<if_group>windows</if_group>
+<field name="win.system.eventID">^4624$</field>
+<field name="win.eventdata.LogonType">^3$</field>
+<field name="win.eventdata.TargetUserName">^Administrator$</field>
+<description>Possible Pass-the-Hash: network logon using Administrator account</description>
+<mitre>
+<id>T1550.002</id>
+</mitre>
+</rule>
+</group>
+
+<group name="windows,golden_ticket,">
+<rule id="100103" level="12">
+<if_group>windows</if_group>
+<field name="win.system.eventID">^4769$</field>
+<field name="win.eventdata.targetUserName">^Administrator@LAB.LOCAL$</field>
+<description>Possible Golden Ticket usage: ticket request for privileged Administrator account</description>
+<mitre>
+<id>T1558.001</id>
+</mitre>
+</rule>
+</group>
