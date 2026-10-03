@@ -36,7 +36,7 @@ SIEM logs and no field gives it away, the wazuh rule just flags any ticket reque
 <img width="921" height="489" alt="Screenshot 2026-10-03 173443" src="https://github.com/user-attachments/assets/8de7d962-2ca8-49c8-8231-238bab5f6b85" />
 
 
-(The custom Wazuh rule for this (100103) is in [wazuh-rules/local_rules.xml](../wazuh-rules/local_rules.xml))
+(The custom Wazuh rule for this (100103) is in [wazuh-rules](/wazuh-rules/local_rules.xml))
 
 
 ## How to prevent this:
