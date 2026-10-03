@@ -17,10 +17,10 @@ A hands-on home lab simulating a small Active Directory environment demonstratin
 
 ## Attacks
 
-- [1. Kerberoasting](./1-kerberoasting/) | Service account SPN abuse | T1558.003 |
-- [2. AS-REP Roasting](./2-asreproasting/) | Stealing passwords via disabled pre-authentication | T1558.004 |
-- [3. Pass The Hash](./3-pass-the-hash/) | Reusing stolen NTLM hashes directly | T1550.002 |
-- [4. Golden Ticket](./4-golden-ticket/) | Forging TGTs using krbtgt keys | T1558.001 |
+- [1. Kerberoasting](./1-kerberoasting/readme.md) | Service account SPN abuse | T1558.003 |
+- [2. AS-REP Roasting](./2-asreproasting/readme.md) | Stealing passwords via disabled pre-authentication | T1558.004 |
+- [3. Pass The Hash](./3-pass-the-hash/readme.md) | Reusing stolen NTLM hashes directly | T1550.002 |
+- [4. Golden Ticket](./4-golden-ticket/readme.md) | Forging TGTs using krbtgt keys | T1558.001 |
 
 
 ## What I learned:
