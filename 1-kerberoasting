@@ -1,8 +1,0 @@
-# 1. Kerberoasting
-
-### MITRE ATT&CK - T1558.003
-
-
-## The Setup
-
-A service account `svc_sql`
